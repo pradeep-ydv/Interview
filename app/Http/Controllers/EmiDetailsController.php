@@ -68,6 +68,6 @@ class EmiDetailsController extends Controller
     public function show()
     {
         $emiDetails = DB::select('SELECT * FROM emi_details');
-        return view('emi_details.show', compact('emiDetails'));
+        return view('backend.EMIDetails.show', compact('emiDetails'));
     }
 }

@@ -2,21 +2,6 @@
 @push('title')
     <title>Loan Details</title>
 @endpush
-@push('styles')
-    <style>
-        /* div.dataTables_wrapper div.dataTables_paginate {
-                            display: none;
-                        } */
-        .zoom {
-            transition: transform .2s;
-            /* Animation */
-        }
-
-        .zoom:hover {
-            transform: scale(3.2);
-        }
-    </style>
-@endpush
 @section('main-content')
     <!-- DataTales Example -->
     <div class="card shadow mb-4">
